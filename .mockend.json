@@ -13,7 +13,7 @@
       "luca@email.it",
       "biagino@email.it"
     ]} ,
-    "comments": {iDataFilter
+    "comments": {
       "hasMany": "Comment"
     }
   },
