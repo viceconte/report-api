@@ -2,7 +2,7 @@
   "Report": {
     "iId" :  { "int": { "min": 0, "max": 1000000 } } ,
     "iDataFilter" :  { "int": { "min": 0, "max": 2 } } ,
-    "iIncludeAnswers" :   "boolean"  ,
+    "iIncludeAnswers" :   { "boolean": {} } ,
     "iOrderGroupBy" :  { "int": { "min": 0, "max": 4 } } ,
     "iScheduleTiming" :  { "int": { "min": 0, "max": 31 } } ,
     "iScheduleType" :  { "int": { "min": 0, "max": 2 } } ,
