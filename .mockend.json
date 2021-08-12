@@ -1,14 +1,26 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
+  "Report": {
+    "iId" :  { "int": { "min": 0, "max": 1000000 } } ,
+    "iDataFilter" :  { "int": { "min": 0, "max": 2 } } ,
+    "iIncludeAnswers" :  { "boolean" } ,
+    "iOrderGroupBy" :  { "int": { "min": 0, "max": 4 } } ,
+    "iScheduleTiming" :  { "int": { "min": 0, "max": 31 } } ,
+    "iScheduleType" :  { "int": { "min": 0, "max": 2 } } ,
+    "iUnit" :  { "int": { "min": 0, "max": 29999 } } ,
+    "iUser" :  { "int": { "min": 0, "max": 2 } } ,
+    "sRecipients" :  { "string": [
+      "prova@prova.it",
+      "luca@email.it",
+      "biagino@email.it"
+    ]} ,
+    "comments": {iDataFilter
       "hasMany": "Comment"
     }
   },
   "Comment": {
     "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+    "report": {
+      "belongsTo": "Report"
     }
   }
 }
