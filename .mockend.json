@@ -11,9 +11,9 @@
      "active" :   { "boolean": {} } ,
     "required" :   { "boolean": {} } ,
     "predefined" :   { "boolean": {} } ,
-    "name" : { string : ['report predefinito uses1','report predefnito uses2','report personalizzato ']},
-    "desc" : { string : ['Ogni settimana riceverai un report checklist che include lo stato di compilazione,gli operatori che l hanno compilata e le risposte date','Ogni settimana riceverai un report che include i contatori , suddivisi per giorno della settimana, di : ore lavoro, allarmi , ampere /ora consumati e km percorsi, per tutti i carrelli della tua flotta','report personalizzato ']},
-    "sub-desc" : { string : ['Ideale per il monitoraggio di contratti di noleggio','report predefnito uses2','Popolare nelle situazioni in cui sono presenti piu operatori autorizzati alla guida dei mezz']},
+    "name" : { string : ["report predefinito uses1","report predefnito uses2","report personalizzato"]},
+    "desc" : { string : ["Ogni settimana riceverai un report checklist che include lo stato di compilazione,gli operatori che l hanno compilata e le risposte date","Ogni settimana riceverai un report che include i contatori , suddivisi per giorno della settimana, di : ore lavoro, allarmi , ampere /ora consumati e km percorsi, per tutti i carrelli della tua flotta","report personalizzato"]},
+    "sub-desc" : { string : ["Ideale per il monitoraggio di contratti di noleggio","report predefnito uses2","Popolare nelle situazioni in cui sono presenti piu operatori autorizzati alla guida dei mezz"]},
     "sRecipients" :  { "string": [
       "prova@prova.it",
       "luca@email.it",
