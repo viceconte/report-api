@@ -6,6 +6,8 @@
     "iOrderGroupBy" :  { "int": { "min": 0, "max": 4 } } ,
     "iScheduleTiming" :  { "int": { "min": 0, "max": 31 } } ,
     "iScheduleType" :  { "int": { "min": 0, "max": 2 } } ,
+        "iDatasource" :  { "int": { "min": 0, "max": 2 } } ,
+
     "iUnit" :  { "int": { "min": 0, "max": 29999 } } ,
     "iUser" :  { "int": { "min": 0, "max": 2 } } ,
      "active" :   { "boolean": {} } ,
